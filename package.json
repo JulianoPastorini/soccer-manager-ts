@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/node": "^25.5.0",
     "@types/prompt-sync": "^4.2.3",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.2"
@@ -12,10 +13,19 @@
     "prompt-sync": "^4.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/main.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianoPastorini/SinucaPOO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JulianoPastorini/SinucaPOO/issues"
+  },
+  "homepage": "https://github.com/JulianoPastorini/SinucaPOO#readme"
 }
