@@ -8,4 +8,12 @@ export class Team {
     this.name = name;
     this.players = players;
   }
+  
+}
+class Player {
+  constructor(
+    public nome: string,
+    public posicao: string,
+    public overall: number
+  ) {}
 }

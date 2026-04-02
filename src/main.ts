@@ -1,6 +1,6 @@
 import { teams } from "./data/teams";
 import * as readline from "readline";
-
+//comentario
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
