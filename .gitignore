@@ -6,3 +6,5 @@ coverage/
 .env
 .env.*
 src/data/savegame.json
+.vscode/
+debug.log
