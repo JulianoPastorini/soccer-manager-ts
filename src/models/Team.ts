@@ -33,4 +33,12 @@ export class Team {
     this.attackOverall = Math.round(attackSector);
     this.defenseOverall = Math.round(defenseSector);
   }
+  
+}
+class Player {
+  constructor(
+    public nome: string,
+    public posicao: string,
+    public overall: number
+  ) {}
 }
